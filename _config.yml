@@ -7,19 +7,16 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Lizeth I Tamayo, MPH"
+title                    : "Dr. Test Account"
 title_separator          : "-"
-name                     : &name "Lizeth I Tamayo"
-description              : &description "PhD Candidate in genetic epidemiology at the University of Chicago"
+name                     : &name "Dr. Test Account"
+description              : &description "Research scientist at Test University"
 url                      : https://lizeth-tamayo.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "lizeth-tamayo.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false #change to true to add link to talkmap on talks page
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
   disqus:
@@ -50,16 +47,16 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
+google_site_verification : 
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : &twitter 
 facebook:
-  username               :
+  username               : 
   app_id                 :
   publisher              :
 og_image                 :  # Open Graph/Twitter default site image
@@ -75,44 +72,43 @@ social:
 analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : 
 
 
 # Site Author
 author:
-  name             : "Lizeth I Tamayo, MPH"
+  name             : "Dr. Test Account"
   avatar           : "profile.png"
-  bio              : "PhD Candiate in Genetic Epidemiology at The University of Chicago"
-  location         : "Chicago, IL"
-  employer         :
-  googlescholar    : "https://scholar.google.com/citations?user=HZIrgUUAAAAJ&hl=en"
-  email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
-  uri              :
+  bio              : "Research scientist at Test University, expert in all things test and account related"
+  location         : "Test, California"
+  employer         : 
+  googlescholar    : "http://scholar.google.com/this-is-a-test"
+  email            : 
+  uri              : 
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : 
   foursquare       :
-  github           : "lizeth-tamayo"
+  github           : "getorg-testacct"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : 
   lastfm           :
   linkedin         :
-  orcid            : "https://orcid.org/0000-0002-2417-3331"
+  orcid            : "http://orcid.org/testaccount"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "LizethITamayo"
+  twitter          : "testaccount-this-is-fake"
   vine             :
   weibo            :
   xing             :
   youtube          :
-  wikipedia        :
+  wikipedia        : 
 
 
 # Reading Files
@@ -241,7 +237,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-
+      
 # Sass/SCSS
 sass:
   sass_dir: _sass
@@ -256,7 +252,7 @@ timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database
 
 
 # Plugins
-plugins:
+gems:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
